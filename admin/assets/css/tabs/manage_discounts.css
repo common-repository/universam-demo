@@ -1,0 +1,22 @@
+/* ================================= Скидка на количество ================================ */
+.page-manage_discounts .tab_amount .table_rate_price{display:inline-block; width:100%; margin-bottom:30px}
+.page-manage_discounts .tab_amount .box{width:300px; display:block; float:left; margin-right:30px; padding:20px; border:1px solid #E5E5E5;}
+/* ================================= Купоны ================================ */
+.coupon_code input,
+.coupon_code{font-size:25px;}
+/* ================================= Правила купонов ================================ */
+.manage_discounts_settings{width:100%; padding-top:20px; display:inline-block;}
+.manage_discounts_settings .table_1 td{background-color:#fff;}
+.manage_discounts_settings ul li{padding:10px 0;}
+.manage_discounts_settings ul li{width:100%;}
+.manage_discounts_settings ul li.data{border:1px solid #ccc; background:#F1F1F1; padding:20px;}
+.manage_discounts_settings table.manage_discounts_cat{width:100%;}
+.manage_discounts_settings table.manage_discounts_cat td{background-color:#F1F1F1;}
+
+.manage_discounts_settings label.title_option{width:330px; display:block; float:left; padding:5px 0;}
+table.table_1{width:100%;}
+table.table_1 td{padding:0px 20px; border:1px solid #ccc; width:50%; vertical-align:top;}
+/*Скидки корзины*/
+.tab_cart .search_block{max-width:300px; margin-right:20px}
+
+.gift_table{margin-top:20px}

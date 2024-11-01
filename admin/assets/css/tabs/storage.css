@@ -1,0 +1,21 @@
+/*===========================*/
+/* Управление складами */
+/*==========================*/
+
+.tab_storage .wp-list-table .column-author{width:90px; }
+.tab_storage .wp-list-table .column-address{width:150px; }
+.tab_storage .wp-list-table .column-schedule{width:150px; }
+
+.tab_inventory .wp-list-table .column-product_title{min-width:150px;}
+.tab_inventory .wp-list-table tfoot a,
+.tab_inventory .wp-list-table thead a{writing-mode: vertical-lr;}
+@media screen and (min-width: 783px) 
+{			
+	.tab_inventory .usam_list_table_wrapper {position: relative; display: inline-block; width: 100%;}
+	.tab_inventory .wp-list-table{overflow-x: scroll; display:block; width: auto;}
+	.tab_inventory .wp-list-table tbody tr.no-items:hover{background-color: inherit ;}
+	.tab_inventory .wp-list-table tbody tr.no-items:hover td{color: inherit;}
+	.tab_inventory .wp-list-table tbody tr:hover{background-color:var(--hover-color);}
+	.tab_inventory .wp-list-table tbody tr:hover td, 
+	.tab_inventory .wp-list-table tbody tr:hover a{color:#fff;}
+}

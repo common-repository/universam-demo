@@ -1,0 +1,10 @@
+/*===========================*/
+/* Обмен данными	 */
+/*==========================*/
+
+.page-exchange .submit_box{margin-top:40px;  width:100%;}
+.page-exchange .export_table h3{padding-bottom:20px; margin:0px;}
+.page-exchange .export_table  td{padding:20px; border:1px solid #ccc; width:50%; vertical-align:top}
+.page-exchange .export_table  td td{border:none; padding:3px 0px;}
+.page-exchange .export_table .ftp{display:block; width:40%; border:1px solid #ccc; padding:20px;}
+.page-exchange .export_table table{width:100%;}

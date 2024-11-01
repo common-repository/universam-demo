@@ -1,0 +1,29 @@
+.admin_menu_role{padding:20px 0 30px 0}
+.tab_buttons{margin-top:20px;}
+.code, code { font-family:inherit; font-size:inherit; }	
+.usam_requisites_shop input{width:450px;}
+#usam_site_setting{margin-bottom:10px}
+/* Уведомления */
+.tab_notification #usam_events h4{margin:0px; padding:0px;}
+.tab_notification #usam_events .edit_form{margin:20px 0}
+.tab_notification #usam_events .condition{padding-top:20px; border-top:1px solid #e5e5e5}
+
+/*Бланки*/
+#edit_form_blanks{background-color:#ffffff}
+
+.sms_message_wrapper{border:1px solid #ddd; background:#f5f5f5; width:500px}
+.sms_message_wrapper .sms_message{width:100%}
+.sms_message_wrapper .toolbar{padding:5px;}
+
+.tab_notification .table_rate .column_name select{margin-left:60px}
+.tab_notification .table_rate tbody td.center{text-align:center;}
+.tab_notification .table_rate tbody td .check_blok{float:left; width:70%;}
+.tab_notification .table_rate tbody td .check_blok input{width:100%;}
+.tab_notification .conditions {margin-left:20px; margin-bottom:40px}
+.tab_notification .table_rate .condition_type{position:relative;}
+.tab_notification .table_rate .condition-logic{position:absolute; bottom:-30px; left:-20px; z-index:6; }
+
+
+.menu_section{font-size:25px}
+.menu_page{font-size:15px}
+.menu_page.checked{background:#496b7b; color:#ffffff}

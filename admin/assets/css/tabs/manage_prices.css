@@ -1,0 +1,14 @@
+/*===========================*/
+/* Управление товарной наценкой */
+/*==========================*/
+
+.tab_margins .column-margin input, .column-discount input{width:100px;}
+.tab_margins .margins table td input{width:100%;}
+.tab_margins .column-percent,
+.tab_margins .column-profit{background:#87CEEB;}
+
+.usam_global_operation .name .select_product_price{margin-left:20px}
+
+.tab_rates .base_currency{background:#FFFFFF; border:1px solid #E5E5E5; padding:10px; margin:10px 0;}
+.tab_products .column-price{width:15%;}
+.edit_product_price{color:#d54e21}

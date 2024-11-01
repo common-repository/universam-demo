@@ -1,0 +1,17 @@
+.call_control_panel{position: fixed; bottom:0px; right:20px; z-index:9999; background-color:#000000; opacity: 0.8; width: 100%;}
+.call_control_panel__body{position: relative; padding:20px; left:50%; margin-left:-12em;}
+.call_control_panel .icon{display:inline-block; width: 5.5em; height: 5.5em; border-radius: 100%; vertical-align: middle; text-decoration: none;}
+.call_control_panel .cancel_call{cursor:pointer; background-color:#5e0d0c; text-shadow: 0 1px 2px rgba(0,0,0,0.75); box-shadow: inset 1px 1px 0px rgba(255,255,255,0.25), inset 0 0 6px #a23227, inset 0 80px 80px -40px #ac3223, 1px 1px 3px rgba(0,0,0,0.75); }
+.call_control_panel .cancel_call:before{font-family:"dashicons" !important; content: "\f525"; color:#ffffff; font-size:2.5em; text-align:center; display:inline-block; width:2.2em; line-height:2.2em;}
+.call_control_panel .call_control_panel__line{border:1px dashed #ffffff; width: 12.5em; display: inline-block; opacity:1; animation:pulsate_opacity 1.5s linear infinite;}
+@keyframes pulsate_opacity{
+	50%{opacity:0.5}
+}
+.call_control_panel .call_control_panel__text{position:absolute; left: 7.5em; width: 11.5em; color:#ffffff; text-align:center}
+.call_control_panel .call_control_panel__message{bottom: 20px; font-style:italic;}
+.call_control_panel .call_control_panel__phone{top: 20px; font-weight:600;}
+.call_control_panel .call_customer{text-shadow: 0 1px 2px rgba(0,0,0,0.75); background: #525c68; box-shadow: inset 1px 1px 0px rgba(255,255,255,0.25), inset 0 0 6px #525c68, inset 0 80px 80px -40px #525c68, 1px 1px 3px rgba(0,0,0,0.75); }
+.call_control_panel .call_customer:before{font-family:"dashicons" !important; content: "\F110"; color:#ffffff; font-size:2.5em; text-align:center; display:inline-block; width:2.2em; line-height:2.2em;}
+
+#task_manager .delete{cursor:pointer}
+#task_manager .no_items{font-size: 18px;}

@@ -1,0 +1,24 @@
+/*===========================*/
+/* Управление социальными сетями */
+/*==========================*/
+.profiles_panel {position:relative; margin-bottom:10px; background:var(--main-color); color:#000; font-weight:500;}
+.profiles_panel:before {content:''; width:5px; border-radius:2px 0 0 2px; background:#778899; position:absolute; top:0; left:0; bottom:0;}
+.profiles_panel  .profiles_content{display:flex}
+.profiles_panel  .profiles_content .name{font-size:16px; padding:13px 20px;} 
+.profiles_panel  .select_profile{height:36px; padding:4px 0;}
+.profiles_panel  .select_profile select{font-size:16px; line-height:34px; height:34px; border-width:0px;}
+.profiles_panel  .select_profile h4{margin:0 0 0 20px; font-size:16px; line-height:34px;}
+
+.modal-body table td{padding-right:5px}
+.modal-body .colums{width:100%; display:inline-block;}
+.modal-body .colums .title{text-align:center;}
+.modal-body .colums strong{font-size:20px;}
+.modal-body .colums .colum1{float:left; width:55%; padding-right:5px}
+.modal-body .colums .colum1 table{margin-top:10px}
+.modal-body .colums .colum1 table textarea{width:100%;}
+.modal-body .colums .colum2{float:right; width:42%;padding-right:5px;}
+.modal-body .colums .colum2 .products{margin-top:10px; overflow-y:scroll; height:250px;}
+
+.tab_vk_users .yes{color:#0073aa;}
+.album_image{width: 100px;}
+.album_title{margin-left:10px}

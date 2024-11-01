@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body {margin:50px auto 24px; box-shadow:none; background:#f1f1f1; padding:0; max-width: 800px; border:none}
+#usam_logo { border:0; margin:0 0 24px; padding:0; text-align:center;}
+#usam_logo img { max-width:50%}
+.usam_setup-content {box-shadow:0 1px 3px rgba(0, 0, 0, .13); padding:24px 24px; margin:0 0 20px; background:#fff; zoom:1;}
+.usam_setup-content h1{text-align: center;}
+.usam_setup-content h1, .usam_setup-content h2, .usam_setup-content h3, .usam_setup-content table {margin:0 0 24px; border:0; padding:0; color:#666; clear:none;}
+.usam_setup-content p {margin:0 0 24px; font-size: 0.9em; line-height:1.2em; color:#666;}
+.usam_setup-content table {font-size:1em; line-height:1.75em; color:#666;}
+.usam_setup-content a { color:#F08080;}
+.usam_setup-content a:focus, .usam_setup-content a:hover {color:#111;}
+.usam_setup-content .form-table th {width:35%; vertical-align:top; font-weight:400;}
+.usam_setup-content .form-table td { vertical-align:top;}
+.usam_setup-content .form-table td .text_search_block{display:block}
+.usam_setup-content .form-table td input, .usam_setup-content .form-table td select { width:100%; box-sizing:border-box;}
+.usam_setup-content .form-table td input[size] { width:auto;}
+.usam_setup-content .form-table td .description { line-height:1.5em; display:block; margin-top:.25em; color:#999; font-style:italic;}
+.usam_setup-content .form-table td .input-checkbox, .usam_setup-content .form-table td .input-radio {width:auto; box-sizing:inherit; padding:inherit; margin:0 .5em 0 0; box-shadow:none;}
+.usam_setup-content .form-table .section_title td { padding:0;}
+.usam_setup-content .form-table .section_title td h2, .usam_setup-content .form-table .section_title td p {margin:12px 0 0;}
+.usam_setup-content .form-table td, .usam_setup-content .form-table th {padding:12px 0; margin:0; border:0;}
+.usam_setup-content .form-table td:first-child, .usam_setup-content .form-table th:first-child {padding-right:1em;}
+.usam_setup-content .usam_setup-pages { width:100%; border-top:1px solid #eee;}
+.usam_setup-content .usam_setup-pages thead th {display:none;}
+.usam_setup-content .usam_setup-pages .page-name { width:30%; font-weight:700;}
+.usam_setup-content .usam_setup-pages td, .usam_setup-content .usam_setup-pages th { padding:14px 0; border-bottom:1px solid #eee;}
+.usam_setup-content .usam_setup-pages td:first-child, .usam_setup-content .usam_setup-pages th:first-child {padding-right:9px;}
+.usam_setup-content .usam_setup-pages th { padding-top:0;}
+.usam_setup-content .usam_setup-pages .page-options p {color:#777; margin:6px 0 0 24px; line-height:1.75em;}
+.usam_setup-content .usam_setup-pages .page-options p input {vertical-align:middle; margin:1px 0 0; height:1.75em; width:1.75em; line-height:1.75em;}
+.usam_setup-content .usam_setup-pages .page-options p label {line-height:1;}
+@media screen and (max-width:782px) { 
+	.usam_setup-content .form-table tbody th { width:auto;}
+}
+.usam_setup-content .twitter-share-button { float:right;}
+.usam_setup-content .usam_setup-next-steps { overflow:hidden;  margin:0 0 24px; padding-bottom:2px;}
+.usam_setup-content .usam_setup-next-steps h2 { margin-bottom:12px;}
+.usam_setup-content .usam_setup-next-steps .usam_setup-next-steps-first {float:left; width:50%; box-sizing:border-box;}
+.usam_setup-content .usam_setup-next-steps .usam_setup-next-steps-last {float:right; width:50%; box-sizing:border-box;}
+.usam_setup-content .usam_setup-next-steps ul {padding:0 2em 0 0; list-style:none outside; margin:0 0 -.75em;}
+.usam_setup-content .usam_setup-next-steps ul li a { display:block; padding:0 0 .75em;}
+.usam_setup-content .usam_setup-next-steps ul .setup-first a.button {background-color:#f7f7f7; border-color:#ccc; color:#23282d; box-shadow:inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 0 #ccc;
+    text-shadow:1px 0 1px #eee, 0 1px 1px #eee; font-size:1em; height:auto; line-height:1.75em; margin:0 0 .75em; opacity:1; padding:1em; text-align:center;}
+.usam_setup-content .usam_setup-next-steps ul .setup-first a.button:active, 
+.usam_setup-content .usam_setup-next-steps ul .setup-first a.button:focus, 
+.usam_setup-content .usam_setup-next-steps ul .setup-first a.button:hover {background:#f5f5f5; border-color:#aaa;}
+.usam_setup-content .usam_setup-next-steps ul .setup-first a.button-primary {color:#fff; background-color:#F08080; border-color:#CD5C5C; box-shadow:inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 0 #CD5C5C; text-shadow:0 -1px 1px #F08080, 1px 0 1px #F08080, 0 1px 1px #F08080, -1px 0 1px #F08080;}
+.usam_setup-content .usam_setup-next-steps ul .setup-first a.button-primary:active, 
+.usam_setup-content .usam_setup-next-steps ul .setup-first a.button-primary:focus,
+.usam_setup-content .usam_setup-next-steps ul .setup-first a.button-primary:hover {color:#fff; background:#CD5C5C; border-color:#CD5C5C; box-shadow:inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 0 #CD5C5C;}
+.usam_setup-content .usam_setup-next-steps ul li a::before {color:#82878c; font:normal 20px/1 dashicons; speak:none; display:inline-block; padding:0 10px 0 0; top:1px; position:relative; -webkit-font-smoothing:antialiased;  -moz-osx-font-smoothing:grayscale; text-decoration:none!important; vertical-align:top;}
+.usam_setup-content .usam_setup-next-steps ul .learn-more a::before { content:'\f105'}
+.usam_setup-content .usam_setup-next-steps ul .video-walkthrough a::before { content:'\f126'}
+.usam_setup-content .usam_setup-next-steps ul .newsletter a::before { content:'\f465'}
+.usam_setup-content .updated{padding:24px 24px 0; margin:0 0 24px; overflow:hidden; background:#f5f5f5;}
+.usam_setup-content .updated p{padding:0; margin:0 0 12px;}
+.usam_setup-content .updated p:last-child{ margin:0 0 24px;}
+.usam_setup-steps {padding:0 0 24px; margin:0; list-style:none outside; overflow:hidden; color:#ccc; width:100%; display:-webkit-inline-box; display:-ms-inline-flexbox; display:inline-flex;}
+.usam_setup-steps li {width:20%; float:left; padding:0 0 .8em; margin:0; text-align:center; position:relative; border-bottom:4px solid #ccc; line-height:1.4em;}
+.usam_setup-steps li::before {content:''; border:4px solid #ccc; border-radius:100%; width:4px; height:4px; position:absolute; bottom:0; left:50%; margin-left:-6px; margin-bottom:-8px; background:#fff;}
+.usam_setup-steps li.active {border-color:#F08080; color:#F08080;}
+.usam_setup-steps li.active::before {border-color:#F08080;}
+.usam_setup-steps li.done {border-color:#F08080; color:#F08080;}
+.usam_setup-steps li.done::before{border-color:#F08080; background:#F08080;}
+.usam_setup .usam_setup-actions {overflow:hidden; margin:0}
+.usam_setup .usam_setup-actions .button {float:right; padding:.5em 0.8em; line-height:1em; margin-right:.5em; margin-bottom:2px; height:auto; border-radius:4px;}
+.usam_setup .usam_setup-actions .button-primary {background-color:#F08080; border-color:#CD5C5C; box-shadow:inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 0 #CD5C5C; text-shadow:0 -1px 1px #CD5C5C, 1px 0 1px #CD5C5C, 0 1px 1px #CD5C5C, -1px 0 1px #CD5C5C; float:right; margin:0;  opacity:1;}
+.usam_setup .usam_setup-actions .button-primary:active, 
+.usam_setup .usam_setup-actions .button-primary:focus,
+.usam_setup .usam_setup-actions .button-primary:hover {background:#CD5C5C; border-color:#CD5C5C; box-shadow:inset 0 1px 0 rgba(255, 255, 255, .25), 0 1px 0 #CD5C5C;}
+.usam_return-to-dashboard {font-size:.85em; color:#b5b5b5; margin:1.18em 0; display:block; text-align:center;}
+.usam_wizard_theme_intro {padding:40px; background:#f5f5f5; text-align:center;}
+.usam_wizard_theme_intro img {margin:40px 0 0 0;  width:100%; display:block; max-width: 100%;}
+.usam_wizard-leader .usam_wizard_theme { margin:0; padding:20px 30px 20px 2em; width:50%; box-sizing:border-box;}
+.usam_wizard-leader .usam_wizard_theme::before { margin-left:-2em; position:absolute;}
+.usam_wizard-leader .usam_wizard_theme.first {clear:both; float:left;}
+.usam_wizard-leader .usam_wizard_theme.last { float:right;}
+
+.usam_setup-content .themes{margin:-10px; display:-webkit-box;display:-ms-flexbox;display:flex; -ms-flex-direction:row; flex-direction:row; position:relative; flex-wrap: wrap; padding-bottom:20px}
+.usam_setup-content .theme{display:-webkit-box;display:-ms-flexbox;display:flex; -ms-flex-direction:column; flex-direction:column; width:50%; padding:10px; box-sizing:border-box; margin:0!important; }
+.theme__thumbnail{overflow:hidden}
+.usam_setup-content .theme img{height:auto; max-width:100%; transition: 1s;}
+.usam_setup-content .theme img:hover {transform: scale(1.1); }
+.usam_setup-content .theme__price{font-weight: 700; margin:10px 0}
+.theme__button{display:-webkit-box;display:-ms-flexbox;display:flex; -ms-flex-direction:row; position:relative; justify-content: space-between;}
+
+.usam_setup-content .theme-browser{width:100%; display:inline-block;}

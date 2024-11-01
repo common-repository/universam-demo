@@ -1,0 +1,75 @@
+.calendar_tab {position:relative;}
+.calendar_tab .header_tab{display:flex; margin:0; padding:0}
+.calendar_tab .header_tab .tab{padding:15px 20px; margin:0; display:block; font-size:18px; color:#ffffff; background-color:var(--main-color4); position:relative; text-shadow:1px 1px 2px #000000, 0 0 1em #F5F5F5; cursor:pointer}
+.calendar_tab .header_tab .current{background-color:var(--main-color3); }
+.calendar_tab .header_tab .tab:hover{color:#ffffff;}
+
+.calendars_box{margin-top:27px}
+.calendars_box  a, .calendars_box h4{color:#000000; font-size:14px;}
+.calendars_box  a.add_calendar{display:block; float:right; font-size:10px;}
+ 
+.calendar_tab .tab{background-color:var(--main-color3);}
+.calendar_tab .countent_tabs{position:relative; margin-top:-4px;}
+.calendar_tab .countent_tabs .tab{padding:10px 0 0 0;}
+.calendar_tab .countent_tabs .current{display:block}
+
+.usam_table_calendar {width:100%; background-color:#ffffff;}
+.usam_month-title {display:block; overflow:hidden; visibility:hidden;}
+.usam_table_calendar .usam_days-title{background-color:#005478; color:#fff;}
+.usam_table_calendar .usam_days-grid-table td{background-color:#ffffff;}
+.usam_month-title b {display:inline-block; height:20px; width:13.5%; display:inline-block; height:20px; padding-left:0.5%}
+.usam_table_calendar tr.usam_days-title td {height:20px; border:1px solid #d9d9d9;}
+.usam_month-title {display:block; overflow:hidden; visibility:hidden;}
+.usam_table_calendar .calendar__event_grid{position:relative; height:100%; border:1px solid #d9d9d9; border-top-width:0;}
+.usam_days-grid-table {width:100%; height:100%;}
+.usam_days-grid-table td.usam_day {border-top:1px solid #c9c9c9; border-right:1px solid #c9c9c9; width:14%; vertical-align:top;}
+
+.usam_days-grid-table td.usam_current_day{border:1px solid var(--main-color2)!important;}
+.views_interval{position:absolute; top:-30px; right:100px; font-size:20px; font-weight:bold;}
+.usam_table_calendar .usam_day-title{background-color:#B5B5B5;}
+
+.usam_table_month_calendar .usam_day{position:relative;}
+.usam_table_month_calendar .usam_task{width:100%; position:absolute; left:0;}
+.usam_table_month_calendar .usam_day .usam_day-title{display:block; width:100%; position:absolute; top:0; left:0; height:20px;}
+.usam_table_month_calendar .usam_task_day_more{display:inline-block; position:absolute; height:16px; font-size:11px; z-index:20!important; overflow:hidden; border-radius:1px; padding:2px 5px; border:1px solid #B5B5B5;}
+.usam_table_month_calendar .usam_task_day_more:hover{box-shadow:0 0 10px rgba(0,0,0,0.5);}
+
+#tab-week .usam_table_calendar .calendar__event_grid table.usam_days-grid-table{width:100%; height:100%; border:none;}
+#tab-week .usam_time{padding-top:25px;}
+#tab-week .usam_timeline_title{height:42.76px;}
+#tab-week .calendar__event_grid{margin-left:40px;}
+
+.usam_task{font-size:14px; line-height:14px; overflow:hidden; height:13px; padding:3px; background-color:#01799C; border:1px solid #ffffff; color:#ffffff;}
+.usam_table_calendar .usam_current_day .usam_day-title{background-color:var(--main-color2)!important;}
+.usam_table_calendar .usam_current_day .usam_day-title a.usam_day-link{color:#ffffff!important;}
+
+.calendar_tab .usam_day .usam_day-title a.usam_day-link {text-decoration:none; color:#606263; font-family:Verdana,Arial,sans-serif; font-size:14px; font-weight:bold; display:inline-block;  margin:1px 0 0 11px;}
+
+table.usam_days-grid-table td.usam_day-past .usam_day .usam_day-title a.usam_day-link {font-weight:normal; color:#888d90!important;}
+.usam_event {position:absolute; height:16px; font-size:11px; z-index:20!important; overflow:hidden; border-radius:1px; padding:2px 5px}
+.usam_event_hover{box-shadow:0 0 10px rgba(0,0,0,0.5);}
+.usam_event .usam_event-title {height:100%; overflow:hidden; padding:1px 0 0 3px; white-space:nowrap;}
+.usam_event {background-color:rgb(206, 230, 105); color:rgb(0, 0, 0);}
+.event_longer_calendar{border-right:2px solid #01799c;}
+table{ border-spacing:0px;}
+
+/*День*/
+.usam_table_day_calendar{width:100%; border-spacing:0px; border-collapse:collapse}
+.usam_table_day_calendar td, .usam_table_day_calendar tr{border:none}
+.usam_table_day_calendar .usam_hour{height:40px;}
+.usam_table_day_calendar .usam_timeline_titlep {overflow:auto; overflow-x:hidden; height:460px; width:100%; position:relative; border-color:#d9d9d9; border-style:solid;  border-width:0 1px 1px 0;}
+	
+table.usam_wdv-timeline-tbl tr.usam_half-time-row1 td, 
+table.usam_wdv-timeline-tbl tr.usam_half-time-row2 td {height:20px; border-top-width:0!important;}
+#tab-day .usam_tasks_box{display:block; float:right; width:100%; position:relative;}
+#tab-day .usam_tasks_cell{margin-left:40px;}
+#tab-day .usam_task{display:block; float:left;}
+#tab-day .usam_timeline_title{height:40px;}
+
+.calendar_tab .tab_calendar_title{color:#ffffff; font-size:25px; font-weight:bold; padding:10px 0 20px 20px; }
+.calendar_tab .usam_time{display:block; float:left; vertical-align:top; background-color:#D6D4D5;}
+#tab-day .usam_time{margin-left:-40px;}
+.calendar_tab .usam_timeline_title {width:40px; text-align:center; color:#000; font-size:11px; vertical-align:top; outline:1px solid #c9c9c9;}
+.usam_tasks_cell{outline:1px solid #B4C5CC;}
+.calendar_tab .row_1{height:20px;}
+.calendar_tab .row_2{height:20px; border-top:1px solid #B4C5CC;}

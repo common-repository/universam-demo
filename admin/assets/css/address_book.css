@@ -1,0 +1,12 @@
+/*Адресная книга*/
+body{background:#ffffff;overflow-y:scroll; scrollbar-width: thin; scrollbar-color: #b3b3b3 #f6f6f6; padding:15px}
+body::-webkit-scrollbar{width:3px; background-color:rgba(0,0,0,0); -webkit-border-radius:80px;}
+body::-webkit-scrollbar:hover{background-color:rgba(0, 0, 0, 0.09);}
+body::-webkit-scrollbar-thumb:vertical{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}
+body::-webkit-scrollbar-thumb:vertical:active{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}	
+html.wp-toolbar{padding-top:0px}
+p.search-box{margin-bottom:10px}
+.tablenav .tablenav-pages{margin:0}
+.column-company{width:40%}
+.usam_select_address_book{float:left;}
+.wp-list-table .select_communication{cursor:pointer; color: var(--main-color2);}

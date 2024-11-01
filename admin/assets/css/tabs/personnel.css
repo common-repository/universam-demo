@@ -1,0 +1,41 @@
+.widefat td.column-online,
+.widefat td.column-birthday,
+.widefat td.column-webform,
+.widefat td.column-chat{vertical-align:inherit;}
+
+.tab_employees .grid_item__employee_name{font-size:12px; line-height:1.4; justify-content:end;}
+.tab_employees .grid_item_row__foto{float:left; margin-right:5px; margin-bottom:5px; border-radius:60px; height:max-content; width:50px; flex:1;}
+.tab_employees .grid_item_row__employee_name{display:flex; flex-direction:column; width: 100%;}
+.tab_employees .grid_item_row__appeal{text-align: center;}
+.tab_employees .grid_item_row__online{position:absolute; width:10px; height:10px; background-color:#6eb960; border-radius:10px;}
+.tab_employees .grid_item_row__email{margin:5px 0}
+.tab_employees .grid_view .grid_item_row__post{justify-content:center; text-align:center; margin-top:5px; padding-top:5px; border-top:1px solid #eee;}
+
+.notes{display:flex;}
+.notes__lists{width:20%; position:relative; background-color:#f0ecdb; border:1px solid #ebebeb; border-left:0; border-right:0;}
+.notes__lists_item{opacity:1; position:relative; margin:30px; padding-bottom:0; border:1px solid #e9e4ca; background:#fffced; padding:20px; -moz-transition:all 300ms ease-in-out; -webkit-transition:all 300ms ease-in-out; -o-transition:all 300ms ease-in-out; transition:all 300ms ease-in-out; word-break:break-word; white-space:pre-line;}
+.notes__lists_item strong{display:block; margin-bottom:10px;}
+.notes__lists_item .button_delete{display:none; position:absolute; right:2px; top:2px}
+.notes__lists_item:hover{cursor:pointer; background: #eae6ce; border-color: #dad2a6;}
+.notes__lists_item:hover .button_delete{display:block}
+.notes .current{background: #fff;}
+.notes__writepad{width:80%; background:#fffced; position:relative; border-radius:5px}
+.notes__writepad:after{display:block; content:'';  position:absolute; left:95px; top:0; bottom:0; background:#f9d4d1; width:1px;}
+.notes__writepad textarea{overflow: hidden; overflow-wrap: break-word; resize: horizontal; background:0 0; border:none; background:url(../notes-lines.png) left top; background-attachment:local; min-height:780px; max-height:1500px; display:block; width:100%; height:31px; padding:6px 50px 12px 125px; font-size:14px; line-height:52px; color:#555;}
+.notes__writepad textarea:hover,
+.notes__writepad textarea:focus{border:none; outline:none; box-shadow:none}
+
+@media only screen and (max-width:1023px)
+{	
+    .notes__writepad textarea{padding-left:90px;}
+	.notes__writepad:after{left:75px;}
+	.notes__lists_item{margin:15px;}
+}
+@media only screen and (max-width:782px)
+{	
+	.notes{flex-direction: column;}
+	.notes__writepad{width:100%; order:1}
+	.notes__lists{width:100%; order:0}
+	.notes__writepad textarea{padding-left:40px;}
+	.notes__writepad:after{left:25px;}
+}

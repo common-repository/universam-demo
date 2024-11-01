@@ -1,0 +1,186 @@
+/*
+css для форм интерфейса
+*Переключатель
+*Календарь
+*/
+.hide{display: none;}
+.fade{opacity:0; -webkit-transition:opacity 0.15s linear; -moz-transition:opacity 0.15s linear;  -o-transition:opacity 0.15s linear; transition:opacity 0.15s linear;}
+.fade.in{opacity:1;}
+.collapse{position:relative; height:0; overflow:hidden; -webkit-transition:height 0.35s ease; -moz-transition:height 0.35s ease; -o-transition:height 0.35s ease; transition:height 0.35s ease;}
+.collapse.in{height:auto;}
+.modal{display:none; width:1023px; position:fixed; top:10%; left:50%; transform:translate(-50%, 0%); z-index:99999; background-color:#ffffff; border:1px solid rgba(0, 0, 0, 0.3); border-radius:5px; -webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3); -moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3); box-shadow:0 3px 7px rgba(0, 0, 0, 0.3); -webkit-background-clip:padding-box; -moz-background-clip:padding-box; background-clip:padding-box;}
+.modal.in{display:block}
+.modal .close{background:transparent; float:right; font-size:20px; font-weight:bold; line-height:20px; color:#000000; text-shadow:0 1px 0 #ffffff; opacity:0.2; filter:alpha(opacity=20); padding:0; cursor:pointer; background:transparent; border:0; -webkit-appearance:none; height:auto;}
+.modal .close:hover,
+.modal .close:focus{color:#000000; text-decoration:none; cursor:pointer; opacity:0.4; filter:alpha(opacity=40);}
+.modal-medium{width:550px!important;}
+.modal-small{width:220px!important;}
+.modal-scroll{overflow-y:scroll; scrollbar-width: thin; scrollbar-color: #b3b3b3 #f6f6f6; padding-right:10px;}
+.modal-scroll::-webkit-scrollbar{width:3px; background-color:rgba(0,0,0,0); -webkit-border-radius:80px;}
+.modal-scroll::-webkit-scrollbar:hover{background-color:rgba(0, 0, 0, 0.09);}
+.modal-scroll::-webkit-scrollbar-thumb:vertical{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}
+.modal-scroll::-webkit-scrollbar-thumb:vertical:active{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}	
+.modal-backdrop{position:fixed; top:0; right:0; bottom:0; left:0; z-index:1040; background-color:#000000;}
+.modal-backdrop.fade{ opacity:0;}
+.modal-backdrop,
+.modal-backdrop.fade.in{opacity:0.8; filter:alpha(opacity=80);}
+.modal .message_error{margin:0}
+.modal.fade{top:-25%; -webkit-transition:opacity 0.3s linear, top 0.3s ease-out;  -moz-transition:opacity 0.3s linear, top 0.3s ease-out; -o-transition:opacity 0.3s linear, top 0.3s ease-out; transition:opacity 0.3s linear, top 0.3s ease-out;}
+.modal.fade.in{top:10%;}
+.modal-header{ padding:9px 15px; border-bottom:1px solid #eee;}
+.modal-header .close{margin-top:2px;}
+.modal-header .header-title{clear:none; color:#000; font:bold 1.286em Georgia,sans-serif;}
+.modal-body{ position:relative; padding:2px 15px; margin:13px 0;}
+.modal-form{margin-bottom:0;}
+.modal-footer{ padding:14px 15px 15px; margin-bottom:0; text-align:right; background-color:#f5f5f5; border-top:1px solid #ddd; -webkit-border-radius:0 0 6px 6px; -moz-border-radius:0 0 6px 6px; border-radius:0 0 6px 6px;
+  *zoom:1; -webkit-box-shadow:inset 0 1px 0 #ffffff; -moz-box-shadow:inset 0 1px 0 #ffffff; box-shadow:inset 0 1px 0 #ffffff;}
+.modal-footer:before,
+.modal-footer:after{display:table;  line-height:0;  content:"";}
+.modal-footer:after{clear:both;}
+@media screen and (max-width: 1023px) 
+{
+	.modal{width: calc(100% - 20px);}	
+	.modal.fade.in{top:30px;}	
+}
+.chosen-wrapper .chosen-container{width:100% !important;}
+/* Календарь */
+.ui-widget-overlay{position:fixed; top:0; left:0; width:100%; height:100%;}
+.ui-datepicker{width:17em; padding:.2em .2em 0; display:none;}
+.ui-datepicker .ui-datepicker-header{position:relative; padding:.2em 0;}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next{position:absolute; top:50%; transform:translate(0%, -50%); width:1.8em; height:1.8em; font-family:dashicons; speak:none; font-variant:normal; text-transform:none; cursor:pointer; font-size:10px; line-height:2.2em;}
+.ui-datepicker .ui-datepicker-prev{left:2px;}
+.ui-datepicker .ui-datepicker-prev:before{content:"\f341";}
+.ui-datepicker .ui-datepicker-next{right:2px;}
+.ui-datepicker .ui-datepicker-next:before{content:"\f345";}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span{display:block; position:absolute; left:50%; margin-left:-8px; top:50%; margin-top:-8px;}
+.ui-datepicker .ui-datepicker-title{margin:0 2.3em; line-height:1.8em; text-align:center;}
+.ui-datepicker .ui-datepicker-title select{font-size:1em; margin:1px 0;}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year{width:45%;}
+.ui-datepicker table{width:100%; font-size:.9em; border-collapse:collapse; margin:0 0 .4em;}
+.ui-datepicker th{padding:.7em .3em; text-align:center; font-weight:bold; border:0;}
+.ui-datepicker td{border:0; padding:1px;}
+.ui-datepicker td span,
+.ui-datepicker td a{display:block; padding:.2em; text-align:right; text-decoration:none;}
+.ui-datepicker .ui-datepicker-buttonpane{background-image:none; margin:.7em 0 0 0; padding:0 .2em; border-left:0; border-right:0; border-bottom:0;}
+.ui-datepicker .ui-datepicker-buttonpane button{float:right; margin:.5em .2em .4em; cursor:pointer; padding:.2em .6em .3em .6em; width:auto; overflow:visible;}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left;}
+
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi{width:auto;}
+.ui-datepicker-multi .ui-datepicker-group{float:left;}
+.ui-datepicker-multi .ui-datepicker-group table{width:95%; margin:0 auto .4em;}
+.ui-datepicker-multi-2 .ui-datepicker-group{width:50%;}
+.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%;}
+.ui-datepicker-multi-4 .ui-datepicker-group{width:25%;}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0;}
+.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left;}
+.ui-datepicker-row-break{clear:both; width:100%; font-size:0;}
+
+/* RTL support */
+.ui-datepicker-rtl{direction:rtl;}
+.ui-datepicker-rtl .ui-datepicker-prev{right:2px; left:auto;}
+.ui-datepicker-rtl .ui-datepicker-next{left:2px; right:auto;}
+.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px; left:auto;}
+.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px; right:auto;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group{float:right;}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0; border-left-width:1px;}
+
+/* Icons */
+.ui-datepicker .ui-icon{display:block; text-indent:-99999px; overflow:hidden; background-repeat:no-repeat; left:.5em; top:.3em;}
+
+.ui-datepicker{font-family:Arial,Helvetica,sans-serif; font-size:1em;}
+.ui-datepicker{font-size:1em;}
+.ui-datepicker input,
+.ui-datepicker select,
+.ui-datepicker textarea,
+.ui-datepicker button{font-family:Arial,Helvetica,sans-serif; font-size:1em;}
+.ui-datepicker{border:1px solid #c5c5c5;}
+.ui-datepicker{border:1px solid #dddddd; background:#ffffff; color:#333333;}
+.ui-datepicker a{color:#333333;}
+.ui-widget-header{border:1px solid #dddddd; background:#e9e9e9; color:#333333; font-weight:bold;}
+.ui-widget-header a{color:#333333;}
+
+/* Interaction states
+----------------------------------*/
+
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+
+/* We use html here because we need a greater specificity to make sure disabled
+works properly when clicked or hovered */
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active{border:1px solid #c5c5c5; background:#f6f6f6; font-weight:normal; color:#454545;}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited,
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+.ui-button{color:#454545; text-decoration:none;}
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited,
+a.ui-button:hover,
+a.ui-button:focus{color:#2b2b2b; text-decoration:none;}
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight{border:1px solid #dad55e; background:#fffa90; color:#777620;}
+.ui-state-checked{border:1px solid #dad55e; background:#fffa90;}
+.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight a{color:#777620;}
+.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error{border:1px solid #f1a899; background:#fddfdf; color:#5f3f3f;}
+.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error a{color:#5f3f3f;}
+.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text{color:#5f3f3f;}
+.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary{font-weight:bold;}
+.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary{opacity:.7; font-weight:normal;}
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled{opacity:.35; background-image:none;}
+
+/* ajax поиск */
+.text_search_block{position:relative;}
+.text_search_block:before{font-family:dashicons; font-size:16px; content:"\f179"; color:#a0a5aa; position:absolute; right:5px; top:50%; transform:translate(0%, -50%);}
+.text_search_block input{padding-right:25px!important; width:100%;}
+.ui-autocomplete li{color:#3d7fb5}
+.ui-autocomplete li:hover a{color:#ffffff}
+.ui-autocomplete li:hover,
+.ui-autocomplete li.ui-state-focus{color:#ffffff; background-color:#00a0d2}
+.ui-autocomplete li.product_variable:hover{color:#3d7fb5; background-color:#ffffff}
+.ui-autocomplete li.product_variable{font-weight:bold;}
+.ui-autocomplete li.product_variation{padding-left:20px}
+.ui-autocomplete li .dropdown-product_parent_variation{}
+.ui-autocomplete li .dropdown-product_variation{}
+.ui-autocomplete .autocomplete_title{background-color:#72aee6!important; color:#ffffff!important; text-transform:uppercase;}
+.ui-helper-hidden-accessible{display:none;}
+@media screen and (max-width:900px) 
+{
+	.modal{width:calc(100% - 20px);}	
+	.modal.fade.in{top:30px;}	
+}

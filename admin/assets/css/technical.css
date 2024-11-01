@@ -1,0 +1,16 @@
+/*
+css для админского интерфейса
+*/
+.technical_display{position:relative; color:#ffffff;}
+.technical_display_admin{margin:0 20px 0 180px;}
+.technical_display_admin .header_tab{display:flex; flex-direction: row; justify-content: left; align-items: center;}
+.technical_display .header_tab {background:#363636;}
+.technical_display .header_tab a{font-size:20px; text-decoration: none; color:#ffffff; padding:20px 10px; display: block;}
+.technical_display .header_tab .current{background: #23282d;}
+.technical_display .countent_tabs{background: #23282d;}
+.technical_display .countent_tabs .tab{padding:20px; overflow: hidden;  white-space: pre-wrap;}
+
+@media screen and (max-width: 960px) 
+{
+	.technical_display_admin{margin:0 20px 0 60px;}
+}

@@ -1,0 +1,129 @@
+/*===========================*/
+/* Обратная связь */
+/*==========================*/
+
+/* Комментарии */
+.tab_reviews .wp-list-table{border-collapse: collapse;}
+.tab_reviews .wp-list-table .column-author{width:200px; }
+.review_status_2{border-left: 4px solid #e6f0c0;}
+.wp-list-table .column-review h4{ margin:0 0 10px 0; }
+.wp-list-table .column-review .review_text{font-size:13px;font-weight:bold;margin-top:10px }
+
+.tab_reviews .usam_edit_review_rating{display:inline-block;}
+
+/* Чат */
+#tab_chat .wp-list-table tbody tr:hover{background:#e0ecea; border-bottom:1px solid #DAE1E8; border-left:0px #DAE1E8; border-right:0px #DAE1E8; border-top:0px #DAE1E8; cursor:pointer}
+#tab_chat .column-count{width:40px;}
+#tab_chat .wp-list-table tbody tr .count_new{position:absolute; top:0; left:0; background-color:#D54E21; border-radius:10px; color:#FFFFFF; display:inline-block; font-size:9px; font-weight:600; line-height:17px; margin:1px 0px 0px 2px; vertical-align:top; z-index:26; padding:0px 6px;}
+#tab_chat .wp-list-table .column-channel{width:40px}
+#tab_chat .wp-list-table tbody tr.current_sel{background-color:#e0ecea;}
+#tab_chat .wp-list-table tbody tr.current_sel * >td{color:#4c7171}
+#tab_chat .wp-list-table tbody tr.new_dialog .check-column{border-left:4px solid var(--main-color2);}
+
+
+.current_dialog{width:400px; margin-right:20px;}
+.current_dialog .go_back{display:none}
+.chat__content{padding:0;margin:0; position:sticky; top:40px; background:#FFFFFF; border:1px solid #E5E5E5; display:flex; flex-direction:column;}
+.current_dialog__manager,
+.dialog_recipient{flex-shrink: 0; min-height:30px; display:flex; flex-direction:row; justify-content:space-between; align-items:center; margin:0px; padding:10px; background:#fafbfc; border-bottom:1px solid #e3e4e8;}
+.dialog_recipient_content{display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
+.dialog_recipient_content img{border-radius:30px; width:30px; margin-right:10px}
+.dialog_recipient_content a{color:#000000;}
+.dialog_recipient__name{display:flex; flex-direction:row; justify-content:space-between; align-items:center;}
+.chat__messages{width:100%; overflow-y:scroll; height:650px; padding:0px; flex: 1 0 auto; position:relative}
+.chat__messages::-webkit-scrollbar{width:3px; background-color: rgba(0,0,0,0); -webkit-border-radius: 80px;}
+.chat__messages::-webkit-scrollbar:hover{background-color: rgba(0, 0, 0, 0.09);}
+.chat__messages::-webkit-scrollbar-thumb:vertical{background: rgba(0,0,0,0.61);-webkit-border-radius: 80px;}
+.chat__messages::-webkit-scrollbar-thumb:vertical:active{background: rgba(0,0,0,0.61);-webkit-border-radius: 80px;}
+.chat__messages .new_message{background:#EDF1F5; border-bottom:1px solid #DAE1E8; border-left:0px #DAE1E8; border-right:0px #DAE1E8; border-top:0px #DAE1E8;}
+.chat__messages .chat__message{display:flex; flex-direction:column; padding:5px 10px;}
+.chat__messages .chat__message_header{display:flex; flex-direction:row; justify-content:space-between;  align-items:center; margin-bottom:5px}
+.chat__message_attachment img{max-width: 100%;}
+.chat__messages .message_customer_foto{margin-right:5px}
+.chat__messages .chat__message_text{display:inline-block; white-space: pre-wrap;}
+.chat__messages .chat__message_user{color:#CD5C5C; font-weight:700;}
+.chat__messages .chat__message_date{margin-left:10px; text-align:right;}
+.chat__messages .chat__source_icon{display:inherit; width:30px; margin-left:10px}
+.chat__new_message_arrived{position:absolute; bottom:100px; padding:5px; margin:0 20px; z-index:999; background-color:var(--main-color); text-align:center; width:calc(100% - 50px); color:#000; font-family:cursive; border-radius:20px}
+.chat__controls{width:100%; display:flex; display:-webkit-flex; align-items:center; padding-top:10px; padding-bottom:5px; background:#ffffff}
+.chat__controls_message{width:100%;}
+.chat__controls_message textarea{overflow:hidden; margin-right:10px; min-height:100px; font-size:13px;font-family:Arial; width:calc( 100% - 10px); margin-left:10px; resize:none; padding:5px;}
+.chat__controls_button{margin:auto; text-align:center; width:50px;}
+.chat__controls_sent_message{display:block; color:#9199a0; position:relative; box-sizing:content-box; overflow:hidden; white-space:nowrap; font-size:40px; line-height:1; cursor:pointer; font-family:dashicons; font-weight:400; font-style:normal; speak:none; text-decoration:inherit; text-transform:none; text-rendering:auto; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; vertical-align:top; text-align:center; transition:color .1s ease-in;}
+.chat__controls_sent_message:before {content:"\f345";}
+.chat__controls .chat__controls_sent_message:focus{border:none;}
+
+.status_message{padding:5px; border-radius:10px;}	
+.message_not_sent{background:#f5e9e2; border-style:solid; border-color:#e4d4cb; border-width:0px 0px 1px 0px;}
+.user_block_in_width .user_block__content{max-width:calc(100% - 70px);}
+.user_block__message{overflow: hidden; text-overflow: ellipsis;}
+.user_block__message_preview{white-space: nowrap;}
+.message_not_sent .user_block__message_preview{color:#8b4c23;}
+
+.chat_view{display:flex; flex-direction:row; justify-content:space-between;}
+.chat_view__table{width:100%;}
+.messaging_management .add_folder{margin-top:10px; color:#666; display:block;}
+.messaging_management  a.clear{display:inline-block;}
+.mobile .list_folders{display:none}
+.menu_email{margin-bottom:10px; border-bottom:1px solid #444; background:#FFFFFF;}
+.menu_email .dashicons-menu{font-size:40px; width:auto; height:auto;}
+.menu_email .name_email_folder{font-size:20px; line-height:35px; padding-left:10px}
+.menu_email .email{font-size:14px; line-height:35px; padding-right:10px; float:right;}
+.list_folders .mailboxes{padding:10px; background:#FFFFFF; border:1px solid #DAE1E8;}
+.email_form .list_folders .name_email{font-size:10px; font-weight:600; display:block; border-bottom:1px solid #444; margin-bottom:10px}
+.mobile .email_form .list_folders .name_email{font-size:22px; line-height:25px; margin-bottom:20px}
+.mobile .email_form .list_folders a{font-size:22px; line-height:25px; margin-bottom:20px}
+
+.list_folders .mailboxes ul{margin:0px 0 0 5px;}
+.list_folders .mailboxes li{padding:0px;}
+.list_folders .mailboxes li:hover a{color:var(--main-color2)}
+.list_folders .mailboxes li .menu_name{color:#b4b9be; font-size:12px; vertical-align:-webkit-baseline-middle;}
+.list_folders .mailboxes .email_menu{top:10px; right:0px;}
+.list_folders .mailboxes .usam_menu {float:right;}
+.email_form .mailboxes .system{margin-bottom:10px;}
+.list_folders .mailboxes .folder_current{background-color:#D1DAE3;}
+.messaging_management .new_email_numbers{color:#000000;}
+.messaging_management li .numbers{font-weight:600;}
+.tab_sms .messaging_management .list_email,
+.tab_email .messaging_management .list_email{width:480px;}
+.messaging_management .display_email .email_body{padding:10px; background:#FFFFFF; border:1px solid #DAE1E8;}
+.messaging_management .display_email .email_body iframe{width:100%; height:500px; overflow:hidden;}
+.messaging_management .email_body .message{margin-top:10px; padding-top:10px; border-top:1px solid #DAE1E8; }
+
+
+#sms_list .list_folders .mailboxes ul{margin:0}
+#open_select_email{width:80px; text-align:center}
+.tab_sms .email_body{height:200px;}
+
+#usam_filter_setting select#option_if{width:180px;}
+#usam_filter_setting select#option_condition{width:100px;}
+#usam_filter_setting input#option_value{width:200px;}
+
+
+.edit_form_event .webform{margin-bottom:20px; border-bottom: 1px solid #DAE1E8; padding-bottom: 20px;}
+
+@media screen and (max-width:1200px) 
+{
+	.tab_sms .messaging_management .list_email,
+	.tab_email .messaging_management .list_email{margin-right:5px; width:380px; flex-shrink:0;}
+	.tab_sms .messaging_management .list_folders,
+	.tab_email .messaging_management .list_folders{margin-right:5px; width:150px; flex-shrink:0;}
+	.tab_sms .messaging_management .bulkactions select,
+	.tab_email .messaging_management .bulkactions select{width:120px;}
+}
+@media screen and (max-width:1023px) 
+{			
+	.current_dialog{width:100%; margin:0px; display:none;}
+	.current_dialog .go_back{display:block}
+	.dialog_open .current_dialog{display:block; }
+	.dialog_open .chat__content{position: relative;}
+	.dialog_open .chat_view__table{display:none}
+	.chat__messages{height:350px;}
+	
+	.tab_sms .messaging_management, 
+	.tab_email .messaging_management{margin:0; flex-direction:column;}
+	.tab_sms .messaging_management, 
+	.tab_email .messaging_management >*{width:100%!important;}
+	.messaging_management .list_email,
+	.messaging_management .list_folders{margin:0px;}
+}

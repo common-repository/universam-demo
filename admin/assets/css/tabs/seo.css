@@ -1,0 +1,71 @@
+/*Массовый редактор товаров*/
+.page-seo .column-product_title{ width:30%;}
+.page-seo td.column-post_content td{padding:0; margin:0;}
+.page-seo .column-post_excerpt{width:20%}
+.page-seo .column-row_action{width:70px}
+/*Позиция сайта*/
+.tab_positions .wp-list-table th{padding: 13px 5px; text-align:center;}
+.tab_positions .wp-list-table td{padding: 12px 5px; max-width:200px;}
+.tab_positions .wp-list-table.positions tr:hover td{background:var(--hover-color); color:#fff;}
+.tab_positions .wp-list-table.positions tr:hover td span{color:#fff!important;}
+.tab_positions .wp-list-table.positions tr:hover td a{color:#000;}
+.tab_positions .wp-list-table .column-keyword{padding:5px 5px; border-right: 1px solid #e1e1e1; background-color: rgb(255, 255, 255); min-width:220px; position: sticky; left: 0;}
+.tab_positions .wp-list-table .keyword_text{display:flex; flex-direction: row; align-items: center;}
+.tab_positions .wp-list-table .keyword_text a{padding: 3px 8px; margin-right:5px}
+.tab_positions .wp-list-table .number_keyword{font-size:27px; padding-right:5px}
+.tab_positions .wp-list-table .phrase{line-height: 1;}
+.tab_positions .wp-list-table tbody .column-keyword .row-actions{display: inline; margin-left:10px}
+.tab_positions .wp-list-table th.column-keyword{padding:5px 5px;}
+.tab_positions .usam_list_table_wrapper{position:relative; display:inline-block; width:100%}
+.tab_positions .wp-list-table .results_positions{display:flex; flex-direction: row; justify-content: center;}
+
+.tab_positions .wp-list-table.links,
+.tab_positions .wp-list-table.view,
+.tab_positions .wp-list-table.positions{overflow-x:scroll; display:block; width: auto;}
+
+.wp-list-table .column-n{font-size:27px; min-width:20px!important; width:20px!important;}
+.wp-list-table a.yandex_link{border-radius: 15px!important; background-color: rgb(238, 73, 73); color:#fff; padding:5px 10px;}
+.wp-list-table a.google_link{border-radius: 15px!important; background-color: #1a73e8; color:#fff; padding:5px 10px;}
+.wp-list-table .keyword_check{padding: 2px 10px; color: #4c6470; border-radius: 10px!important; }
+.wp-list-table .keyword_check.yes{background: var(--main-color2);}
+.wp-list-table .keyword_check.no{background: var(--main-color);}
+
+.column-control_keyword .dashicons-no{color:var(--main-color2)}
+
+.column-control_keyword,
+.column-google,
+.column-yandex,
+.column-check,
+.column-favorites,
+.column-wordstat{width:10px;}
+
+.tab_positions .position_number{font-size:26px;}
+.tab_positions .position_red{color:#ED4C4B;}
+.tab_positions .position_grin{color:#02A488;}
+.tab_positions .position_yellow{color:#FFA324;}
+.tab_positions .go_position{}
+.tab_positions .active{color:#02A488;}
+.tab_positions .domain{font-size:26px;}
+
+.location_site{margin-bottom: 20px}
+
+/*Анализ контента*/
+.link_analysis{margin-bottom:15px; background-color:#fff; border:1px solid #e8e8eb; padding:20px}
+.tab_analysis table{width:100%; margin:10px 0;}
+.tab_analysis table td.title{width:300px;}
+.tab_analysis .form-control{width:100%;}
+
+#usam_statistics {display:inline-block; width:100%;}
+#usam_statistics table .name{width:220px;}
+#usam_statistics .yandex{float:left; width:49%;}
+#usam_statistics .google{float:right; width:49%;}
+
+#graph path, 
+.axis line {fill: none; stroke: #333;}
+.axis .grid-line {stroke: #000; stroke-opacity: 0.2;}
+.axis text {font: 10px Verdana;}
+
+.status_result {width: 20px; height: 20px; border-radius: 50%; display: inline-block; margin-left:20px; vertical-align: middle;}
+
+.tab_search_engines .column-control_keyword .dashicons,
+.tab_search_engines .column-favorites .dashicons{cursor:pointer}

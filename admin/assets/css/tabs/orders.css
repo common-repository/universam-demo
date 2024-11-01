@@ -1,0 +1,31 @@
+.column-customer a{color:#555;}
+.tab_orders .column-method{width:180px}
+.tab_orders tbody .column-notes{font-style: italic; color: var(--main-color2);}
+.tab_orders .column-id .delete{color:red; visibility:hidden}
+.tab_orders tr:hover .column-id .delete{visibility:visible}
+.tab_orders tbody .column-manager .no_manager_assigned{color:var(--main-color2)}
+.tab_orders .wp-list-table{border-collapse: collapse; }
+
+.tab_payment .column-number .delete{color:red; visibility:hidden}
+.tab_payment tr:hover .column-number .delete{visibility:visible}
+.tab_payment .column-external_document a.save{display:none; margin-left:5px;}
+.tab_payment .column-external_document {width:300px}
+.tab_orders tbody .column-status .cancellation_reason{text-align: left; margin-top:10px}
+
+.grid_item__row_customer{font-size: 12px;}
+.grid_item__row_customer a{color:#CD5C5C !important;}
+.grid_view .order_manager{font-size: 12px; border-top:1px solid #eee; justify-content: center; margin-top: 10px; padding-top:5px;}
+.grid_view .order_date{justify-content: space-between;align-items: center;}
+.grid_view .order_date a{font-size: 12px; color:#8e8e8e!important;}
+
+.communication_icon{display:flex; justify-content: left; color:#c9c9c9 !important;}
+.communication_icon >*{margin-right:8px; cursor:pointer}
+.communication_icon >*:last-child{margin-right:0px}
+.communication_icon .active_icon{color:#4c6470; }
+
+.column-customer .communication_icon{margin-top:5px}
+
+@media screen and (min-width:783px) 
+{ 
+	.tab_orders tbody .column-status{text-align: center; vertical-align:middle; width:160px;}	
+}

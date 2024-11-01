@@ -1,0 +1,48 @@
+.progress_form{margin-top:20px}
+.progress_form_content_file .edit_form{margin-top:20px}
+.progress_form_content {box-shadow:0 1px 3px rgba(0, 0, 0, .13); padding:24px 24px 0; margin:0 0 20px; background:#fff;}
+.progress_form_content h3{color: #555; font-size: 24px; font-weight: 400; line-height: 1em; border-bottom: 1px solid #eee; margin:0 0 20px 0; padding:0 0 10px 0}
+.progress_form_content h4{color: #555; font-size:20px; font-weight: 400; line-height: 1em; margin:30px 0;}
+.progress_form_content p {margin:0 0 24px; font-size:1em; line-height:1.75em; color:#666;}
+.table_columns .edit_form__item_name{display: flex; align-items:center;}
+.progress_form_content .column_title {margin:0; line-height:1.3em; width:100%;}
+.progress_form_content .column_number{min-width:40px; text-align:left; padding-left:3px; font-size:2em; line-height:1em; color:#666; font-weight: 400 !important;}
+.progress_form_content table {font-size:1em; line-height:1.75em; color:#666;}
+.progress_form_content a:focus, .progress_form_content a:hover {color:#111;}
+.progress_form_content .form-table th { width:35%; vertical-align:top; font-weight:400;}
+.progress_form_content .form-table td { vertical-align:top;}
+.progress_form_content .form-table td input, 
+.progress_form_content .form-table td select {width:100%; box-sizing:border-box;}
+.progress_form_content .form-table td input[size] { width:auto;}
+.progress_form_content .form-table td .description { line-height:1.5em; display:block; margin-top:.25em; color:#999; font-style:italic;}
+.progress_form_content .form-table td .input-checkbox, .progress_form_content .form-table td .input-radio {width:auto; box-sizing:inherit; padding:inherit; margin:0 .5em 0 0; box-shadow:none;}
+.progress_form_content .form-table .section_title td { padding:0;}
+.progress_form_content .form-table .section_title td h2, .progress_form_content .form-table .section_title td p {margin:12px 0 0;}
+.progress_form_content .form-table td, .progress_form_content .form-table th {padding:12px 0; margin:0; border:0;}
+.progress_form_content .form-table td:first-child, .progress_form_content .form-table th:first-child {padding-right:1em;}
+@media screen and (max-width:782px) { 
+	.progress_form_content .form-table tbody th { width:auto;}
+}
+.progress_form_content .twitter-share-button { float:right;}
+.progress_form_content .updated p{padding:0; margin:0 0 12px;}
+.progress_form_content .updated p:last-child{ margin:0 0 24px;}
+.progress_form__steps {padding:0 0 24px; margin:0; list-style:none outside; overflow:hidden; color:#ccc; width:100%; display:-webkit-inline-box; display:-ms-inline-flexbox; display:inline-flex;}
+.progress_form__steps li {width:50%; float:left; padding:0 0 .8em; margin:0; text-align:center; position:relative; border-bottom:4px solid #ccc; line-height:1.4em;}
+.progress_form__steps li::before {content:''; border:4px solid #ccc; border-radius:100%; width:4px; height:4px; position:absolute; bottom:0; left:50%; margin-left:-6px; margin-bottom:-8px; background:#fff;}
+.progress_form__steps li.active {border-color:var(--main-color3); color:var(--main-color3);}
+.progress_form__steps li.active::before {border-color:var(--main-color3);}
+.progress_form__steps li.done {border-color:var(--main-color3); color:var(--main-color3);}
+.progress_form__steps li.done::before{border-color:var(--main-color3); background:var(--main-color3);}
+.progress_form .actions {overflow:hidden;  border-top:4px solid #ccc; margin-top:20px; padding:10px 0}
+.progress_form .actions .button {float:right; padding:.5em 0.8em; line-height:1em; margin-right:.5em; margin-bottom:2px; height:auto; border-radius:4px;}
+
+.importer__content{display:none}
+.importer__content.active{display:block}
+.importer  .table_columns .edit_form__item:hover{background-color:var(--hover-color);}
+.importer  .table_columns .edit_form__item:hover .edit_form__item_name >*{color:#fff!important}
+.modal .importer h3{display:none}
+.modal .importer .table_columns{height:250px; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: #b3b3b3 #f6f6f6;}
+.modal .importer .table_columns::-webkit-scrollbar{width:3px; background-color:rgba(0,0,0,0); -webkit-border-radius:80px;}
+.modal .importer .table_columns::-webkit-scrollbar:hover{background-color:rgba(0, 0, 0, 0.09);}
+.modal .importer .table_columns::-webkit-scrollbar-thumb:vertical{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}
+.modal .importer .table_columns::-webkit-scrollbar-thumb:vertical:active{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}	

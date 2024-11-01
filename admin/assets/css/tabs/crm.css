@@ -1,0 +1,29 @@
+.tab_report .usam_box h2{margin: 0 0 20px 0}
+
+.rating span.star{float:left; font-size: 1.0em;}
+
+.usam_manage-contacts_duplicate label{ margin-right:20px}
+
+#customer_case{text-align:left}
+#acc_number-0{display:none}
+
+#usam_contact .contact_name{}
+#usam_means_communication input{width:260px;}
+#usam_means_communication select{width:120px;}
+
+.wp-list-table .column-affairs{width:20%;}
+
+/*===========================*/
+
+.modal__buttons  #edit_action{display:none}
+
+.mailing_lists{margin:20px 0}
+
+.financial_table tbody tr.financial_table__data:hover{color:#ffffff; background-color:var(--main-color-excretion)!important;}
+.financial_table__name{width:20%; font-size:.875rem; line-height: 1.25rem;}
+.financial_table__code{width: 8.333333%;}
+.financial_table__year{text-align:right;}
+
+#usam_company_connection .add_items,
+#usam_company_connection .add_items .usam_tab_table{margin:0}
+#usam_company_connection .add_items .text_search_block{width: 100%; padding:0}

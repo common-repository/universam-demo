@@ -1,0 +1,35 @@
+.taxonomy_thumbnail{cursor:pointer}
+#wpbody #edittag{max-width:100%;}
+.taxonomy-usam-product_attributes #add_new_term {display:none}
+
+#add_new_term label{display:inline;}
+
+.statuses_terms{display:inline-flex;}
+.wp-list-table.tags .column-status{width:120px}
+
+#ready_options  table.ready_options .column-number{width:30px}
+#ready_options  table.ready_options .column-code{width:150px}
+
+#term-meta-tags .edit_form{margin-bottom:30px}
+
+.product_attributes_category td{padding-bottom:10px;}
+.product_attributes_category a{text-decoration:none; margin-left:20px;}
+.product_attributes_category .box_category{border:1px solid #DFDFDF; padding:20px;  position:relative; background:#ffffff;}
+.product_attributes_category .box_category .categories_header{width:100%; display:inline-block;}
+.product_attributes_category .box_category h2{padding-bottom:10px; float:right; margin:0; }
+.product_attributes_category .box_category #add_category{float:left;}
+.product_attributes_category .box_category .categories{border-top:1px solid #DFDFDF; margin-top:10px; }
+.product_attributes_category .category table{width:100%;}
+.product_attributes_category .category #delete_category{display:block; float:right;}
+
+#display_category_window .categorydiv{height:400px; overflow-y:scroll;}
+#display_category_window .categorydiv label{font-size:18px; display:inline-block;}
+@media only screen and (max-height: 580px)
+{
+	#display_category_window .categorydiv{height:200px;}
+}
+@media only screen and (max-width:782px)
+{
+	.form-table th{text-align:left;}
+	.wp-list-table.tags .column-status{width:auto}
+}

@@ -1,0 +1,30 @@
+/*===========================*/
+/* Отчеты */
+/*==========================*/
+.report_page_toolbar{margin-bottom:20px;}
+
+.tab-content .wp-list-table .column-date{cursor:default !important;}
+.tab-content .wp-list-table .manage-column{cursor:pointer;}
+
+/* График*/
+#graph{display:none}
+#graph .bar { fill: steelblue;}
+#graph .bar:hover { fill: brown;}
+#graph .axis {font-size:10px;}
+#graph .axis path,
+#graph .axis line {fill: none; stroke: #cccccc; shape-rendering: crispEdges;}
+#graph .x.axis path { display: none;}
+@media screen and (min-width: 783px) 
+{	
+	.tab-content .wp-list-table.constructor{display:table; width: 100%;}
+	.tab-content .wp-list-table.constructor td{min-width:auto;}
+	
+	.usam_list_table_wrapper {position: relative; display: inline-block; width: 100%;}
+	.tab-content .wp-list-table{overflow-x: scroll; display:block; width: auto;}
+	.tab-content .wp-list-table td{min-width:150px;}
+	.tab-content .wp-list-table tbody tr.no-items:hover{background-color: inherit ;}
+	.tab-content .wp-list-table tbody tr.no-items:hover td{color: inherit;}
+	.tab-content .wp-list-table tbody tr:hover{background-color:var(--hover-color);}
+	.tab-content .wp-list-table tbody tr:hover td, 
+	.tab-content .wp-list-table tbody tr:hover a{color:#fff;}
+}

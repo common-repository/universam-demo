@@ -1,0 +1,17 @@
+/*===========================*/
+/* Маркетинг */
+/*==========================*/
+/*Перекрестные продажи*/
+.tab_crosssell .condition_logic_and{background-color:#9cbd6d;}
+.tab_crosssell .condition_logic_or{background-color:#88abc2;}
+.tab_crosssell .condition-logic {position:absolute; z-index:6; width:45px; height:30px; margin:10px 0; border-radius:10px; color:#ffffff; white-space:nowrap; padding:0 10px 0 10px; cursor:pointer; text-align:center; line-height:30px; font-weight:bold;}
+.tab_crosssell .wp-list-table .condition-logic {bottom:-20px; left:-10px;}
+.tab_crosssell .condition-type_title{text-transform:uppercase;}
+.tab_crosssell .condition-logic_title{font-weight:700;}
+.tab_crosssell .condition-value_title{text-transform:uppercase;}
+.tab_crosssell .condition-row{position:relative; margin:10px 0; border:1px solid #23282d; border-radius:20px; padding:10px; text-align:center;}
+.tab_crosssell .column-conditions span{margin:10px 5px;}
+
+.table_rate .condition_type{position:relative;}
+.table_rate .condition_type select{margin-left:50px}
+.table_rate .condition-logic{left:-20px; bottom: -35px;}

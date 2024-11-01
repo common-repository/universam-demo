@@ -1,0 +1,40 @@
+#view_tape{background: #FFFFFF; border: 1px solid #DAE1E8; z-index:999999; font-size: 13px; position:fixed; left:32px; right:32px; top:32px; bottom:32px; border-radius:5px; visibility:hidden; max-height:0}
+#view_tape.open{visibility:visible; max-height:3000px;}
+#view_tape a{color: #0073aa;}
+#view_tape .view_tape__panel{margin-left:60px; height: 100%; position:relative;}
+#view_tape .view_tape__close{cursor:pointer; position:absolute; top:-5px; right:-5px; width: 20px; height: 20px; border: 1px solid #DAE1E8; border-radius: 10px; background: #fff;}
+#view_tape .panel_icons{height: 100%; float:left; margin-left:-60px; display:flex; flex-direction: column; justify-content: left; align-content: space-between; background-color:#ffffff; position: relative; border-right:1px solid #778899;}
+#view_tape .panel_icons__icon{display:flex; align-items:center; justify-content:center; border: 1px solid #778899; border-radius:30px; background: #fff; margin:5px 10px; width:30px; height:30px; box-sizing: initial; position: relative; color:#23282d; cursor:pointer}
+#view_tape .panel_icons__icon.active{border-color:#a4286a; color: #a4286a;}
+#view_tape .view_tape__content{height: 100%; overflow: hidden;}
+#view_tape .view_tape__content.load .feed_posts{opacity:.3;}
+#view_tape .view_tape__content .tab{display:none; padding: 10px;}
+#view_tape .view_tape__content .tab.active{display:block}
+#view_tape .title{font-size:20px; margin-bottom:20px; display:flex; align-items:center;}
+#view_tape .title .button{margin-left:20px}
+#view_tape .feed_posts{overflow-y: scroll; position: absolute; top: 50px; bottom: 20px; left: 0; right:0px; scrollbar-width: thin; scrollbar-color: #b3b3b3 #f6f6f6;}
+#view_tape .feed_posts::-webkit-scrollbar{width:3px; background-color:rgba(0,0,0,0); -webkit-border-radius:80px;}
+#view_tape .feed_posts::-webkit-scrollbar:hover{background-color:rgba(0, 0, 0, 0.09);}
+#view_tape .feed_posts::-webkit-scrollbar-thumb:vertical{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}
+#view_tape .feed_posts::-webkit-scrollbar-thumb:vertical:active{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}	
+#view_tape .feed_posts .feed_post{padding:5px 0; border-bottom: 15px solid #eef2f4; color: #828b95;}
+#view_tape .feed_posts .feed_post:first-of-type{border-top: 0}
+#view_tape .feed_posts .feed_post .post_title{color: #2e2e2e; text-decoration:none;}
+#view_tape .feed_posts .feed_post .event_status{margin-right:10px}
+#view_tape .feed_posts .feed_post_object_name_link{text-decoration: none;}
+#view_tape .feed_posts .feed_post_object_name_link:hover{border-bottom: solid 1px var(--hover-color);}
+#view_tape .feed_posts .author_image{float:left; max-height:50px; max-width:50px; margin-top:5px}
+#view_tape .feed_posts .author_image img{border-radius:50%; max-height:100%; max-width:100%;}
+#view_tape .feed_posts .feed_post .post{color:#828b95; min-height: 47px; line-height: 20px; overflow: hidden; padding: 0 28px 17px 10px; position: relative;}
+#view_tape .feed_posts .feed_post .feed_post_buttons{border-top: solid 1px #e0e0e0; padding-top:10px; margin-top:10px;}
+#view_tape .feed_posts .feed_post .feed_post_buttons{color: #828b95;}
+#view_tape .feed_posts .feed_post .feed_post_buttons span{cursor:pointer}
+#view_tape .feed_posts .feed_post .feed_post_buttons span:hover{color: #2067b0;}
+#view_tape .feed_posts .feed_post .comment_message{margin-top:10px;}
+#view_tape .feed_posts .feed_post .comment_post_buttons .button-primary{margin-right:10px}
+#view_tape .feed_posts .feed_post .feed_post_object_name_type{color: #a4286a;} 
+#view_tape .feed_posts .feed_post .feed_post_comment{display:flex; margin-top:10px;}
+#view_tape .feed_posts .feed_post .comment{display: inline-block; color: #2e2e2e; min-height: 47px; line-height: 20px; overflow: hidden; padding: 10px 20px; position: relative; border-radius: 23px; background-color: #edf1f3; box-sizing: border-box;}
+#view_tape .load_more_comments{cursor:pointer}
+#view_tape .feed_posts .feed_post .comments .show_all_comments{cursor:pointer;}
+#view_tape .feed_posts .comments .author_image{margin-right:10px}

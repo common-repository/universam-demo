@@ -1,0 +1,11 @@
+/*
+ Dashboard Widget CSS*/
+#usam_sales_current_month{text-align:right;}
+.dashboardWidgetSpecial{font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif; color:#21759B; font-size:15px!important; margin:5px 0 5px 0}
+.dashboardWidget{color:#777; padding-left:10px; padding-right:30px}
+span.usam_quart_left{width:40%; float:left}
+p.atglance{color:#777; font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif; font-size:13px; font-style:italic}
+span.usam_quart_right{width:60%; float:right; text-align:right}
+#box span{border-bottom:1px solid #999}
+p.quarterly{color:#21759B; font-family:Georgia,"Times New Roman","Bitstream Charter",Times,serif; font-size:12px; line-height:140%; margin:5px 0}
+/* end of dashboard widget css */

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{margin:50px auto 24px; box-shadow:none; color:#fff; background-color:#005b9e; padding:0; max-width: 800px; border:none; -webkit-animation:mymove 5s infinite; animation:mymove 5s infinite;
+    animation-timing-function: linear; /* kind of same as transition timing */    
+    animation-fill-mode: none; /* can be used to retain keyframe styling after animation, with "forwards" */
+    animation-play-state: running; /* can be set dynamically to pause mid animation*/}
+@-webkit-keyframes mymove{
+	30%{background:#005b9e;}
+	70%{background:#568eb7;}
+}
+@keyframes mymove{
+	30%{background:#005b9e;}
+	70%{background:#568eb7;}
+}
+#usam_logo { border:0; margin:0 0 24px; padding:0; text-align:center;}
+#usam_logo img { max-width:50%}
+h1{text-align: center; font-size:3rem; font-weight: 400;}
+h2{text-align: center; font-size:1.5rem; font-weight: 400;}
+.title{text-align: center; font-size:2rem}
+.welcome{display:none; font-size:4rem}
+@media only screen and (min-width:783px)
+{
+	.title{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}
+}
+.ready .welcome{display:block}
+.ready .install,
+.ready h1,
+.ready h2{display:none}

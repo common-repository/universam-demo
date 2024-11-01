@@ -1,0 +1,82 @@
+#wpcontent.usam-help-center-open { overflow-x:hidden;}
+.usam-help_center_handle{width:100%; margin:0; padding:10px; border:none; outline:none; color:var(--main-color2); background:none; line-height:19px; text-align:right; cursor:pointer;}
+.usam-help_center_handle .toggle__arrow {text-decoration:none;}
+.usam-help_center_handle:hover,
+.usam-help_center_handle:focus {text-decoration:underline;}
+.usam-help_center_handle .dashicons-before:before {margin-right:5px;}
+.usam-help_center_handle .support_messages{float:right;}
+.usam-help_center_handle .support_messages:before{content: "\f466"; margin-right:5px; }
+.wpseotab .usam_help_center {margin-top:-15px;}
+.usam_help_center{transition:all 0.3s ease-in-out; visibility:hidden; max-height:0px; opacity:0.2;}
+.usam_help_center.usam_help_center_open{visibility:visible; max-height:3000px; opacity:1; margin-bottom: 10px;}
+.usam_help_center__content{display:flex; min-height:320px; margin:0 -20px 10px -999px; padding:2em 20px 2em 999px; background-color:var(--main-color2); box-shadow:inset 0 10px 10px -5px rgba(123, 30, 80, 0.5), inset 0 -10px 10px -5px rgba(123, 30, 80, 0.5);}
+.usam_help_center .hc_tab{width:100%; padding:0 20px;}
+.usam_help_center h1,
+.usam_help_center h2,
+.usam_help_center h3,
+.usam_help_center h4,
+.usam_help_center h5,
+.usam_help_center h6 {margin-top:0.5em; padding-top:0; color:white; font-weight:500;}
+
+.usam_help_center .usam-tab-video__panel__textarea{float:left; width:242px; margin:0 12px 1em 0; padding:15px 15px 5px; border:1px solid; border-color:white; border-radius:30px; border-bottom-right-radius:0; color:white;}
+.usam_help_center .usam-tab-video__panel__textarea h3 {margin:0;}
+.usam_help_center .usam-help-center-tabs{width:200px; flex-shrink: 0; color:white; background-color:var(--main-color2); -webkit-flex:0 0 auto;	-ms-flex:0 0 auto;	flex:0 0 auto;}
+.usam_help_center .usam-help-center-tabs ul{margin:0;}
+.usam_help_center .hc_tab__content{margin:0; color:white;}
+.usam_help_center .hc_tab__content a{color:white;}
+.usam_help_center .hc_tab__content a.button,
+.usam_help_center .hc_tab__content a.button-primary{text-decoration:none;}
+.usam_help_center .usam-tab-video__panel{clear:both; margin-right:1em;	margin-bottom:1em;}
+.usam_help_center .usam-tab-video__panel--text div:last-child {margin-right:0;}
+.postbox .usam_help_center{margin:-6px -12px 20px;}
+.postbox .usam_help_center{margin:0; padding:2em 12px 15px;}
+.inside .usam_help_center{height:auto;}
+.usam-help-center-item {display:inline; cursor:pointer}
+.usam-help-center-item a {display:block; padding:10px 12px; color:white;	text-decoration:none;}
+.usam-help-center-item a:hover,
+.usam-help-center-item a:focus{text-decoration:underline;}
+.usam-help-center-item a.dashicons-before:before{margin-right:10px; text-decoration:none;}
+.usam-help-center-item.active a{color:var(--main-color2);	background-color:white;}
+.usam-tab-video__panel__textarea {background-color:var(--main-color2);}
+.usam-tab-video__panel__textarea a,
+.usam-tab-video__panel__textarea a:hover,
+.usam-tab-video__panel__textarea a:focus{color:white; font-weight:500;}
+.usam-tab-video__panel.usam-tab-video__panel--video {-webkit-flex:0 0 auto;	-ms-flex:0 0 auto;	flex:0 0 auto;}
+
+
+.hc_tab_scroll{-webkit-flex:1 1 auto;	-ms-flex:1 1 auto; flex:1 1 auto; padding:0; max-height:400px; overflow-y:scroll; scrollbar-width: thin; scrollbar-color: #b3b3b3 #f6f6f6;}
+.hc_tab_scroll::-webkit-scrollbar{width:3px; background-color:rgba(0,0,0,0); -webkit-border-radius:80px;}
+.hc_tab_scroll::-webkit-scrollbar:hover{background-color:rgba(0, 0, 0, 0.09);}
+.hc_tab_scroll::-webkit-scrollbar-thumb:vertical{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}
+.hc_tab_scroll::-webkit-scrollbar-thumb:vertical:active{background:rgba(0,0,0,0.61);-webkit-border-radius:80px;}	
+
+.hc_search__search{display:flex}
+.hc_search__input{display:inline; position:relative; width: 100%;}
+.hc_tab_search input[type="text"] {width:100%; height:40px;}
+.hc_tab_search button.button{height:40px; margin:0 0 0 3px;}
+.hc_tab_search .hc_search_results{margin-top:10px;}
+.hc_tab_search .hc_search_results__item{margin-top:10px;}
+.hc_tab_search .hc_search_results__item_name{font-size:20px; line-height: 0.8;}
+.hc_tab_search .hc_search_results__item_name a:hover{color:#c9c8ff;}
+.hc_tab_search .hc_search_results__item_name a{font-size: 14px; color:#c9c8ff;}
+.hc_search_results__nothing_found{font-size:1.5rem; line-height: 1;}
+
+.dashicons{text-decoration:none;}
+#help_center h2{border-bottom:1px solid #fff; padding-bottom:5px; margin-bottom:20px;}
+
+.hc_support_messages__send{margin-bottom:20px; width:50%;}
+.hc_support_messages__send textarea{width:100%;}
+.hc_support_messages .message{margin-bottom:20px;}
+.hc_support_messages .message_content{display:inline-block; border:1px solid #fff; border-radius:30px; padding:20px 30px;}
+.hc_support_messages .subject{font-weight:700; font-size:16px;}
+.hc_support_messages .inbox .message_content{color:#000; background-color:#ffffff;}
+.hc_support_messages .outbox{padding-left:20px}
+
+@media screen and (max-width:782px) 
+{	
+	.usam_help_center__content{flex-direction:column;}
+	.usam_help_center .usam-help-center-item{text-align:center}
+	.usam_help_center .usam-help-center-tabs {width:100%;}
+	.usam_help_center .hc_tab{padding:20px 0 0 0}
+	.hc_support_messages__send{width:100%;}
+}
